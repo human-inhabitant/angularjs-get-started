@@ -9,11 +9,12 @@
   <body ng-controller="MainController">
     <h1>{{message}}</h1>
     <div>{{error}}</div>
-    <div>
-      <div>Name: {{user.name}}</div>
-      <div>Location: {{user.location}}</div>
-      <div><img ng-src="{{user.avatar_url}}" title="{{user.name}}" /></div>
-    </div>
+
+    <form name="searchUser" ng-submit="search( username )">
+      <input type="search" placeholder="User name to find..." ng-model="username" required />
+      <input type="submit" value="Search" />
+    </form>
+    <div ng-include="'userdetails.html'" ng-show="show"></div>
     <script src="/js/angular.min.js"></script>
     <script src="/js/script.js"></script>
   </body>
