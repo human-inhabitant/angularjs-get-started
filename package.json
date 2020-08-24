@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-get-started",
+  "version": "0.6.5",
+  "description": "AngularJS: Get Started",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/human-inhabitant/angularjs-get-started.git"
+  },
+  "keywords": [
+    "Pluralsight",
+    "AngularJS"
+  ],
+  "author": "human-inhabitant",
+  "license": "copyleft-next-0.3.1",
+  "bugs": {
+    "url": "https://github.com/human-inhabitant/angularjs-get-started/issues"
+  },
+  "homepage": "https://github.com/human-inhabitant/angularjs-get-started#readme"
+}
