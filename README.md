@@ -1,6 +1,5 @@
 ## angularjs-get-started
-**Pluralsight:** [AngularJS: Get Started](https://app.pluralsight.com/library/courses/angularjs-get-started/table-of
--contents)
+**Pluralsight:** [AngularJS: Get Started](https://app.pluralsight.com/library/courses/angularjs-get-started/table-of-contents)
 
 _by_ Scott Allen
  
