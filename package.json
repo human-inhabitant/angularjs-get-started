@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/human-inhabitant/angularjs-get-started/issues"
   },
-  "homepage": "https://github.com/human-inhabitant/angularjs-get-started#readme"
+  "homepage": "https://github.com/human-inhabitant/angularjs-get-started#readme",
+  "dependencies": {
+    "angularjs": "0.0.1"
+  }
 }
