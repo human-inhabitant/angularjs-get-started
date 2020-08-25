@@ -9,4 +9,4 @@ This course demonstrates how to use the essential abstractions of AngularJS, inc
 >As part of my companies continued work with their Software Quality Oversight Organization (SQOO), they have made a
  recommendation of continued learning for at least 1 hour per workweek for a total of 4 hours per month.  
 >
->_Here lies my two cents..._
+>_Here lies [my two cents](https://plnkr.co/edit/qmXxbwIS7Vrd4IHC)..._
