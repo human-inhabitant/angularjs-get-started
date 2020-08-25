@@ -6,7 +6,7 @@ _by_ Scott Allen
 This course demonstrates how to use the essential abstractions of AngularJS,
 including modules, controllers, directives, and services.
 
->As part of my companies continued work with a [Software Quality Oversight Organization](https://en.wikipedia.org/wiki/Software_quality_management "Similiar in function...")
+>As part of my companies continued work with a [Software Quality Oversight Organization](https://en.wikipedia.org/wiki/Software_quality_management "Link defines a similar function...")
 >(SQOO), as they have a [Corporate Integrity Agreement](https://en.wikipedia.org/wiki/Corporate_integrity_agreement)
 >(CIA), SQOO has made a recommendation of continued learning for at least 1 hour
 >per workweek for a total of 4 hours per month.  
