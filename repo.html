@@ -1,0 +1,25 @@
+<div class="card">
+  <h2>{{reponame}}</h2>
+  <div class="error">{{error}}</div>
+  <ul>
+    <li>Open Issues: {{repo.open_issues_count}}</li>
+    <li>License: {{repo.license.name}}</li>
+  </ul>
+</div>
+
+<table class="table">
+  <tbody>
+  <tr ng-repeat="contributor in contributors">
+    <td><img ng-src="{{contributor.avatar_url}}" title="{{contributor.login}}" /></td>
+    <td>
+      User: <a href="#!/user/{{contributor.login}}">{{contributor.login}}</a><br/>
+      Contributions: {{contributor.contributions | number}}
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+  <a href="#!/main">Search</a>
+  | <a href="#!/user/{{username}}">{{username}}</a>
+</p>

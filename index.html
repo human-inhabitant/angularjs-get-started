@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="gitHubViewer">
+<html lang="en" ng-app="githubViewer">
   <head>
-    <meta charset="UTF-8">
-    <base href="/"/>
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title></title>
   </head>
-  <body ng-controller="MainController">
-    <h1>{{message}}</h1>
-    <div>{{error}}</div>
-    <div ng-show="countDown">{{countDown}} seconds 'til I search for you...</div>
-    <form name="searchUser" ng-submit="search( username )">
-      <input type="search" placeholder="User name to find..." ng-model="username" required />
-      <input type="submit" value="Search" />
-    </form>
-    <div ng-include="'userdetails.html'" ng-show="user"></div>
+  <body ng-cloak>
+    <h1>GitHub Viewer</h1>
+    <div ng-view></div>
     <script src="/js/angular.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="/js/angular-route.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/mainController.js"></script>
+    <script src="/js/userController.js"></script>
+    <script src="/js/repoController.js"></script>
     <script src="/js/github.js"></script>
   </body>
 </html>
